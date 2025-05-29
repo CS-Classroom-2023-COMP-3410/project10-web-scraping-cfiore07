@@ -1,55 +1,55 @@
 {
     "courses": [
         {
-            "code": "COMP 3000",
+            "course": "COMP 3000",
             "title": "Seminar: The Real World"
         },
         {
-            "code": "COMP 3372",
+            "course": "COMP 3372",
             "title": "Advanced Algorithms"
         },
         {
-            "code": "COMP 3441",
+            "course": "COMP 3441",
             "title": "Introduction to Probability and Statistics for Data Science"
         },
         {
-            "code": "COMP 3455",
+            "course": "COMP 3455",
             "title": "Shell Scripting and System Tools"
         },
         {
-            "code": "COMP 3681",
+            "course": "COMP 3681",
             "title": "Networking for Games"
         },
         {
-            "code": "COMP 3701",
+            "course": "COMP 3701",
             "title": "Topics in Computer Graphics"
         },
         {
-            "code": "COMP 3702",
+            "course": "COMP 3702",
             "title": "Topics in Database"
         },
         {
-            "code": "COMP 3703",
+            "course": "COMP 3703",
             "title": "Topics-Artificial Intelligence"
         },
         {
-            "code": "COMP 3704",
+            "course": "COMP 3704",
             "title": "Advanced Topics: Systems"
         },
         {
-            "code": "COMP 3705",
+            "course": "COMP 3705",
             "title": "Topics in Computer Science"
         },
         {
-            "code": "COMP 3732",
+            "course": "COMP 3732",
             "title": "Human-Centered Data Security and Privacy"
         },
         {
-            "code": "COMP 3991",
+            "course": "COMP 3991",
             "title": "Independent Study"
         },
         {
-            "code": "COMP 3995",
+            "course": "COMP 3995",
             "title": "Independent Research"
         }
     ]

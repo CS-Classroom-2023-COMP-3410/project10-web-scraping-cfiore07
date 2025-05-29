@@ -8,12 +8,12 @@ axios.get('https://bulletin.du.edu/undergraduate/majorsminorscoursedescriptions/
         const courses = [];
         $('p.courseblocktitle').each((i,element) => {
         const data =  {
-            code: $(element).text().slice(0,9),
+            course: $(element).text().slice(0,9),
             title: $(element).text().slice(10, $(element).text().indexOf('(') - 2)
         };
-        if(!(data.code[5] < 3) && !($(element).next().text().includes('Prerequisite'))) {
+        if(!(data.course[5] < 3) && !($(element).next().text().includes('Prerequisite'))) {
             courses.push(data);
-            console.log(data.code);
+            console.log(data.course);
             console.log(data.title+ '\n');
             console.log($(element).next().text() + '\n');
         }
